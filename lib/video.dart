@@ -29,6 +29,7 @@ class Video extends StatefulWidget {
   final bool loop;
   final bool showControls;
   final String url;
+  final String srtUrl;
   final String title;
   final String subtitle;
   final String preferredAudioLanguage;
@@ -45,6 +46,7 @@ class Video extends StatefulWidget {
       this.loop = false,
       this.showControls = true,
       this.url,
+      this.srtUrl = "",
       this.title = "",
       this.subtitle = "",
       this.preferredAudioLanguage = "mul",
@@ -90,6 +92,7 @@ class _VideoState extends State<Video> {
             "loop": widget.loop,
             "showControls": widget.showControls,
             "url": widget.url,
+            "srtUrl": widget.srtUrl ?? "",
             "title": widget.title ?? "",
             "subtitle": widget.subtitle ?? "",
             "preferredAudioLanguage": widget.preferredAudioLanguage ?? "mul",
@@ -123,6 +126,7 @@ class _VideoState extends State<Video> {
             "loop": widget.loop,
             "showControls": widget.showControls,
             "url": widget.url,
+            "srtUrl": widget.srtUrl,
             "title": widget.title ?? "",
             "subtitle": widget.subtitle ?? "",
             "preferredAudioLanguage": widget.preferredAudioLanguage ?? "mul",
@@ -255,6 +259,7 @@ class _VideoState extends State<Video> {
           "autoPlay": widget.autoPlay,
           "loop": widget.loop,
           "url": widget.url,
+          "srtUrl": widget.srtUrl,
           "title": widget.title,
           "subtitle": widget.subtitle,
           "isLiveStream": widget.isLiveStream,

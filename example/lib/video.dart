@@ -53,7 +53,11 @@ class _VideoPlayoutState extends State<VideoPlayout>
               preferredAudioLanguage: "eng",
               isLiveStream: false,
               position: 0,
-              url: _url,
+              // url: _url,
+              url:
+                  "https://cdn-dev.searchie.io/3065/b3d3842e324d9176072e5175527043e2.m3u8",
+              srtUrl:
+                  "https://fkwhwvg9azgw.searchie.io/file/9oNvJoXNXL/embed/caption?type=srt",
               onViewCreated: _onViewCreated,
               desiredState: widget.desiredState,
               preferredTextLanguage: "en",
