@@ -20,10 +20,9 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_playout/ios"
 
 SPEC CHECKSUMS:
-  AVPlayerViewController-Subtitles: d0229e9d215c65f8577f641a6e981e62bb54f0b9
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
   flutter_playout: a5aed32b3003b02eb4432815ecfe0c0e42a801ff
 
 PODFILE CHECKSUM: d1bcb496a50f6a3c2df6824aa067416d1f1403a3
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.10.0
